@@ -1,0 +1,30 @@
+{
+    "intenciones": [
+        {
+            "etiqueta": "saludo",
+            "patrones": ["Hola", "Buenas", "Qué tal", "Hola, cómo estás","Hola, quiero ayuda","Hola, qué tal", "Buenos días", "Buenas tardes",
+        "Buenas noches","Buen día","Saludos"],
+            "respuestas": ["¡Hola! ¿Cómo puedo ayudarte hoy?", "¡Buenas! ¿En qué te puedo asistir?"]
+        },
+        {
+            "etiqueta": "despedida",
+            "patrones": ["Adiós", "Hasta luego", "Nos vemos", "Salu","Gracias, adiós","Gracias, salu", "Hasta luego, adiós","Nos vemos, adiós"],
+            "respuestas": ["¡Hasta luego! Que tengas un buen día.", "Adiós, ¡cuídate!"]
+        },
+        {
+            "etiqueta": "agradecimiento",
+            "patrones": ["Gracias", "Muchas gracias", "Te agradezco", "Gracias por tu ayuda","Gracias por la ayuda","Me sirvio, gracias"],
+            "respuestas": ["¡De nada! Estoy aquí para ayudarte.", "No hay de qué, ¡a tu servicio!"]
+        },
+        {
+            "etiqueta": "informacion",
+            "patrones": ["Cuál es tu nombre", "Quién eres", "Qué puedes hacer", "Cuéntame sobre ti","Cómo te llamas","Cómo eres","Qué eres"],
+            "respuestas": ["Soy un chatbot diseñado para ayudarte con tus consultas.", "Mi nombre es Chatty y estoy aquí para asistirte."]
+        },
+        {
+            "etiqueta": "hora",
+            "patrones": ["Qué hora es", "Dime la hora", "Me puedes decir la hora"],
+            "respuestas": ["Lo siento, no tengo acceso a la hora actual.", "No puedo verificar la hora en este momento."]
+        }
+    ]
+}
